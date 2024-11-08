@@ -1,0 +1,229 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "DANI SCRIPT",
+   LoadingTitle = "ksmk kailo hhhh",
+   LoadingSubtitle = "by DANIIIIII",
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "DANI HUB"
+   },
+   Discord = {
+      Enabled = false,
+      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+   KeySystem = false, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Untitled",
+      Subtitle = "Key System",
+      Note = "No method of obtaining the key is provided",
+      FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
+})
+
+local MainTab = Window:CreateTab("SCRIPTS", 4483362458) -- Title, Image
+local MainSection = MainTab:CreateSection("BY LS CLAN")
+
+Rayfield:Notify({
+   Title = "THANKS FOR USING kos om kailo",
+   Content = "WELCOME",
+   Duration = 5,
+   Image = nil,
+   Actions = { -- Notification Buttons
+
+      Ignore = { -- Duplicate this table (or remove it) to add and remove buttons to the notification.
+         Name = "hahaaa ksm kailo",
+         Callback = function()
+            print("The user tapped Okay!")
+         end
+      },
+
+},
+})
+
+local Button = MainTab:CreateButton({
+   Name = "أƒئ’أ†â€™أƒآ¢أ¢â‚¬إ¾أ‚آ¢أƒئ’أ‚آ¢أƒآ¢أ¢â‚¬إ،أ‚آ¬أƒâ€ڑأ‚آ،أƒئ’أ†â€™أƒآ¢أ¢â‚¬إ¾أ‚آ¢أƒئ’أ‚آ¢أƒآ¢أ¢â€ڑآ¬أ…آ،أƒâ€ڑأ‚آ¬أƒئ’أ†â€™أƒآ¢أ¢â‚¬إ¾أ‚آ¢أƒئ’أ‚آ¢أƒآ¢أ¢â‚¬إ،أ‚آ¬أƒâ€¦أ‚آ¾أƒئ’أ†â€™أƒâ€¹أ…â€œأƒئ’أ¢â‚¬إ،أƒâ€ڑأ‚آ§أƒئ’أ†â€™أƒآ¢أ¢â‚¬إ¾أ‚آ¢أƒئ’أ‚آ¢أƒآ¢أ¢â‚¬إ،أ‚آ¬أƒâ€¦أ‚آ¾أƒئ’أ†â€™أƒâ€ڑأ‚آ°أƒئ’أ¢â‚¬آ¦أƒâ€ڑأ‚آ¸أƒئ’أ¢â‚¬آ¦أƒآ¢أ¢â€ڑآ¬أ¢â€‍آ¢أƒئ’أ‚آ¢أƒآ¢أ¢â€ڑآ¬أ…آ¾أƒâ€ڑأ‚آ¢",
+   Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/n0kc/AtomicHub/main/Map-Al-Biout.lua"))() 
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸Ãƒâ€¦Ã¢â‚¬â„¢ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢",
+   Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/n0kc/AtomicHub/main/Map-Al-Biout.lua"))() 
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "GHOST HUBÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸Ãƒâ€šÃ‚ÂÃƒâ€šÃ‚Â´ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚ÂÃƒÆ’Ã‚Â¢Ãƒâ€¹Ã…â€œ ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¸Ãƒâ€šÃ‚Â",
+   Callback = function()
+     loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "ANTIAFK 1ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/brosula123/Anti-afk/main/Bl%C3%B8xzScript"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "ANTIAFK 2ÃƒÆ’Ã‚Â¢Ãƒâ€¹Ã…â€œ ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¸Ãƒâ€šÃ‚Â",
+   Callback = function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Anti-Afk-Remastered-Script-or-Diffrent-Cool-UI-2097"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "INFINITE YIELDÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸Ãƒâ€¹Ã…â€œÃƒâ€šÃ‚Â¬",
+   Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "R4DÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸Ãƒâ€šÃ‚ÂÃƒâ€šÃ‚Â­",
+   Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "FLYÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸Ãƒâ€šÃ‚Â¤Ãƒâ€šÃ‚Â©",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â³ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â±ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¨ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Âª ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚ÂªÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¬ ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/VR7ss/OMK/main/VR7%20RAGDOLL"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "ANTIAFK 3 - INFOÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸Ãƒâ€šÃ‚Â¦Ãƒâ€šÃ‚Â¾",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/evxncodes/mainroblox/main/anti-afk", true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "ANTILAG",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/FPSBooster.lua"))()
+   end,
+})
+
+local OtherTab = Window:CreateTab("MORE MAPS SCRIPTS", nil) -- Title, Image
+local Section = OtherTab:CreateSection("BY FO")
+
+local Button = OtherTab:CreateButton({
+   Name = "MM2",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "BLOX FRUIT",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/DonateMe/main/OldBf"))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "BLADE BALL",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BladeBall/main/redz9999"))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "ADOPT ME",
+   Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Niburu52/hub/refs/heads/main/Adopt%20Me!'))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â´ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦ ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â­ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÆ’Ã¢â€žÂ¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¯",
+   Callback = function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/Au0yX/ArabXHub/main/ChaletMuhammad.Lua"), true))()
+   end,
+})
+
+local MoreTab = Window:CreateTab("MORE SCRIPTS", nil) -- Title, Image
+local Section = MoreTab:CreateSection("ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â¹ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â±ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‹Å“Ãƒâ€šÃ‚Â³ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¦  FO ÃƒÆ’Ã¢â€žÂ¢Ãƒâ€¹Ã¢â‚¬  LS")
+
+local Button = MoreTab:CreateButton({
+   Name = "BLACK FLY",
+   Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/TinK2zh7"))()
+   end,
+})
+
+local Button = MoreTab:CreateButton({
+   Name = "RTX SCRIPT",
+   Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/CHT5hzTB"))()
+   end,
+})
+
+local Button = MoreTab:CreateButton({
+   Name = "RARE SCRIPT",
+   Callback = function()
+    loadstring(game:HttpGet("https:/hhhhhsgithub%20Hub%20V5.lua"))()
+   end,
+})
+
+local Button = MoreTab:CreateButton({
+   Name = "gHUB",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/gclich/GHUBV14XZ/main/Ghu7#h#hhnaaatxt"))()
+   end,
+})
+
+local Button = MoreTab:CreateButton({
+   Name = "AUTOCLICKER",
+   Callback = function()
+    getgenv().key = "Hostile"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Theyy-telligence/main9n20KSystem%202"))()
+   end,
+})
+
+local Button = MoreTab:CreateButton({
+   Name = "ANTILAG 2",
+   Callback = function()
+    loadstring(game:HttpGet("httyps://rawscriptttw521s.net8ji-FPSLegithhdhdhd-21035"))()
+   end,
+})
+
+local Button = MoreTab:CreateButton({
+   Name = "ANTILAG 3",
+   Callback = function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Unududgwwsal-Script-Anthdjdhhdhddi-Lag-209"))()
+   end,
+})
+
+local Button = MoreTab:CreateButton({
+   Name = "ANTILAG 4",
+   Callback = function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/The-3hhh#hqiq-Anti-lag-20023"))()
+   end,
+})
+
+local Button = MoreTab:CreateButton({
+   Name = "ANTIAFK 6",
+   Callback = function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Un1ivertswy5asal-Script-Anti-yeydafk-15560"))()
+   end,
+})
